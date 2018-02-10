@@ -7,11 +7,11 @@ User needs to have virtual machines (in the practices, there are 4) sharing the 
 
 To run the code before executing command `pvm` , user needs to comple the source files and distribute the nodes among the machines.
 
-<b>```gcc master.c -o master -lpvm3
+`gcc master.c -o master -lpvm3`
 
-   gcc slave.c -o slave -lpvm3
+`gcc slave.c -o slave -lpvm3`
 
-   cp-nodes master slave ```</b>
+`cp-nodes master slave`
 
 # 1. HelloWorld
 
