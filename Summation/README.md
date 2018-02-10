@@ -4,8 +4,11 @@ In this example, master node sends two integers to each host. Hosts receive the 
 
 Assume that it is mandatory to send the integers in order: 
 1, 2 ----------> node1
+
 3, 4 ----------> node2
+
 5, 6 ----------> node3
+
 7, 8 ----------> node4
 
 To run the program, run the followings in the console:
