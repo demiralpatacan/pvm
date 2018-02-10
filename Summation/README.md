@@ -2,7 +2,8 @@
 
 In this example, master node sends two integers to each host. Hosts receive the message, get the integers, do summation and send back the sum to the master node. Then, master node prints the sums for each nodes.
 
-Assume that it is mandatory to send the integers in order: 
+Assume that it is mandatory to send the integers in order:
+
 1, 2 ----------> node1
 
 3, 4 ----------> node2
@@ -10,6 +11,7 @@ Assume that it is mandatory to send the integers in order:
 5, 6 ----------> node3
 
 7, 8 ----------> node4
+
 
 To run the program, run the followings in the console:
 
