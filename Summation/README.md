@@ -24,7 +24,7 @@ pvm> `add node2 node3 node4`
 pvm> `conf`
 
 
-Instead of implementing `pvm_addhosts()` in the master source file, now we add the hosts manually on the PVM console by typing `add node2 node3 node4`. After adding the hosts, the output should be like this.
+Instead of writing `pvm_addhosts()` in the master source file, now we add the hosts manually on the PVM console by typing `add node2 node3 node4`. After adding the hosts, the output should be like this.
 
 ![alt text](https://github.com/demiralpatacan/pvm/blob/master/Summation/img1.png "img1")
 
