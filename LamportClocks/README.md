@@ -6,7 +6,8 @@ Synchronizing clocks across processes is very hard problem in distributed system
 
 Lamport defined a logical relation called *Happen-Before* among pairs of events. According to the rules of that relationship,
 1. On the same process,	if timestamp(B) < timestamp(B), then **A ---> B** (event A happens before event B).
-2. If A is event of message *m* sent by process P(1) and B is event of message *n* received by process P(2), then **A ---> B**.
+2. If A is event of message *m* sent by process P(1) and B is event of message *n* received by process P(2),
+then **A ---> B**.
 3. This relationship is transitive, meaning if A ---> B and B ---> C, then **A ---> C**.
 
 To run the program, in the console:
