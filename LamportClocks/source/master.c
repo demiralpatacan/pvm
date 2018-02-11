@@ -26,7 +26,7 @@ int main() {
         if (logical_clock <= clock_usec)	//compare clocks
             logical_clock = clock_usec + incrementer;
 
-        printf("Master: message sent at %d, received at %d\n",
+        printf("Master: message sent at %ld, received at %ld\n",
             clock_usec, logical_clock);
     }
     pvm_exit();

@@ -23,7 +23,6 @@ int main() {
         pvm_initsend(PvmDataDefault);
         pvm_pkint(&mytid, 1, 1);
         pvm_pkint(&i, 1, 1);            //pack the counter
-        //pvm_pkint(tids, 4, 1);
         pvm_pkint(&nums[(i*2)+1],1,1);  //pack the left operand
         pvm_pkint(&nums[(i*2)+2],1,1);  //pack the right operand
         pvm_send(tids[i], MSG_MST);     //send the message
