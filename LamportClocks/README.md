@@ -1,4 +1,4 @@
-# 5. Lamport's Logical Clocks
+# 4. Lamport's Logical Clocks
 
 This example shows a solution for the pyhsical clock problem by using logical clocks.
 
