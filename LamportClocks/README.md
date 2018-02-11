@@ -1,4 +1,4 @@
-# 4. Lamport's Logical Clocks
+# 4	. Lamport's Logical Clocks
 
 This example shows a solution for the pyhsical clock problem by using logical clocks.
 
@@ -22,4 +22,4 @@ pvm>`spawn -> master`
 The output shows that no message is received before it has sent. We can solve event ordering problem with logical clocks. However, Lamport's Clocks have limitations.
 
 1. Nothing can be said about the actual time of events. If A--->B, it does not mean in reality that A actually happened before B in terms of real time.
-2. If A--->C, and B--->C, then we cannot say anything about the relation between A and B.
+2. If A--->C, and B--->C, then we cannot say anything about the relation between A and B. There is causality lack.
