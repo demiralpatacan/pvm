@@ -13,6 +13,8 @@ To run the code before executing command `pvm` , user needs to comple the source
 
 `cp-nodes master slave`
 
-# 1. HelloWorld
-
-In this example, master node adds 3 more hosts (nodes) and assign tasks to them, including itself. That means we have 4 machines which also means 4 nodes. Master host spawns 4 tasks and sends message to each of them. The exercise is simply to make slave hosts print "Hello World!" message received from the master host.
+## 1. Hello World
+## 2. Summation
+## 3. Physical Clocks
+## 4. Lamport's Logical Clocks
+## 5. Token Ring
